@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="#" id="survery-form" class="survery-form">
+        <label for="" id="name-label">Name<input type="text" id="name" name="name-label" placeholder="Please enter your name" required></label>
+        <label for="" id="email-label">Email<input type="email" id="email" name="email-label" placeholder="Please enter your email" required></label>
+        <label for="" id="number-label">Age(optional)<input type="number" id="number" name="number-label" min="13" max="120" placeholder="Age"></label>
+        <label for="">Which option best describes your current role?
+            <select id="dropdown" name="dropdown">
+                <option value="">(select current role)</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Full Time learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select>
+        </label>
+        <label for="">Would you recommend freeCodeCamp to a friend?</label>
+        <br>
+        <input type="radio" name="user-recommend" value="definitely"><label>Definitely</label>
+        <input type="radio" name="user-recommend" value="yaybe"><label for="">Maybe</label>
+        <input type="radio" name="user-recommend" value="notsure"><label for="">Not sure</label>
+        <label>What would you like to see improved? (Check all that apply)</label>
+        <input type="checkbox" value="frontend"><label for="">Front-end Projects</label>
+        <input type="checkbox" name="" id="" value="backend"><label for="">Back-end Projects</label>
+        <label for="">textarea</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+
+</html>
